@@ -1,0 +1,53 @@
+body {
+	background-color: #E5F2FF;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.img-dimensions img{
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+}
+
+.threepics {
+  width: auto;
+  height: 200px;
+  max-height: 200px;
+}
+
+.mainthree 
+{
+	font-family: 'Arvo', serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.mainjumbotron
+{
+	background-image: url(http://www.unsigneddesign.com/cardboard1_edited.jpg);
+	background-size: contain;
+	background-position: center;
+	font-family: 'Arvo', serif;
+	color: white;
+}
+
+.pfp {
+	width: auto;
+  height: 100px;
+}
+
+.steps{
+	font-size: 60px;
+}
+
+.emphasis{
+	font-weight: bold;
+	color: teal;
+}
+
+.navbar-inverse{
+	background-color: rgba(0,0,0,0.8)
+}
