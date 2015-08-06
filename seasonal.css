@@ -1,0 +1,57 @@
+p, .desc{
+	color:black;
+	font-size: 20px;
+	background-color:rgba(255,255,255,.8);
+	}
+
+/*BODY*/
+	body{
+		vertical-align: center;
+		background-color: #E5F2FF;
+	}
+
+	.white-highlight{
+		background-color: rgba(255,255,255,.8);
+	}
+	h4{
+		font-size: 35px;
+	}
+
+/*PACKAGE BUTTON TEXT*/
+	#college-button{
+		background-color: #573470;
+		color:white;
+	}
+	#holiday-button{
+		background-color: #3E7041;
+		color:#8E1B1B;
+	}
+	#spooky-button{
+		background-color: black;
+		color:#FF934B;
+	}
+
+/*JUMBOTRON STYLES*/
+	.jumbotron{
+		color:black;
+		border-style: double;
+		border-width: 10px;
+	}
+	.leaves{
+		background-image: url("images/leaf-background.jpg");
+		background-size:contain;
+		background-position:center;
+	}
+
+/*OTHER STYLES*/
+	.vertical-line{
+		border-left-style: solid;
+		border-left-width: 3px;
+	}
+	.navbar-inverse{
+		background-color: rgba(0,0,0,0.8);
+		border-color:black;
+	}
+	.note{
+		font-style: italic;
+	}

@@ -1,0 +1,32 @@
+img {
+	max-width: 250px
+}
+h2 {
+	font-size: 25px;
+	text-align: left;
+	font-style: italic;
+}
+h3{
+	font-size: 30px;
+}
+
+
+/*JUMBOTRON STYLES*/
+	.jumbotron{
+		color:black;
+		border-style: double;
+		border-width: 10px;
+	}
+	.balloons{
+		background-image: url("http://www.youthedesigner.com/wp-content/uploads/2011/02/6-patterns-plaid.jpg");
+		background-size:cover;
+		background-position:center;
+	}
+	.white-highlight{
+	background-color: rgba(255,255,255,.8);
+	}
+/*NAVBAR*/
+	.navbar-inverse{
+	background-color: rgba(0,0,0,0.8);
+	border-color:black;
+	}
