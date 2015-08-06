@@ -1,0 +1,97 @@
+/*BODY*/
+body{
+	vertical-align: center;
+	background-color: #E5F2FF;
+}
+
+.white-highlight{
+	background-color: rgba(255,255,255,.8);
+}
+.padding{
+	padding-bottom: 200px;
+}
+/*JUMBOTRON STYLES*/
+.jumbotron{
+	color:black;
+	border-style: double;
+	border-width: 10px;
+}
+
+.triangle-background{
+	background-image: url("images/triangle-background.jpg");
+  background-size:contain;
+  background-position:center;
+}
+.leaves{
+	background-image: url("images/leaf-background.jpg");
+background-size:contain;
+background-position:center;
+}
+
+/*OTHER STYLES*/
+.navbar-inverse{
+background-color: rgba(0,0,0,0.8);
+border-color:black;
+}
+
+#hidden{
+	display: none;
+}
+.note{
+	font-style: italic;
+}
+
+.vertical-line{
+	border-left-style: solid;
+	border-left-width: 3px;
+}
+/*PACKAGE STYLES*/
+
+	/*PACKAGE BUTTON TEXT*/
+		h4{
+			font-size: 35px;
+		}
+		.college-button{
+			color:white;
+		}
+		.holiday-button{
+			color:#8E1B1B;
+		}
+		.spooky-button{
+			color:#FF934B;
+		}
+
+	/*PACKAGE TYPE TEXT*/
+	#whiz-p, #thinker-p, #genius-p, #spooky-p, #holiday-p, #college-p {
+		color:white;
+		font-size: 20px;
+		background-color:rgba(0,0,0,.8);
+	}
+
+/*BUTTON STYLES*/
+	#college-button{
+		background-color: #573470;
+	}
+	#holiday-button{
+		background-color: #3E7041;
+	}
+	#spooky-button{
+		background-color: black;
+	}
+	.thinker-button{
+		color:#7DFAE9;
+		background-color: #BD393B;
+	}
+	.whiz-button{
+		background-color: #B9BA5A;
+		color:#9F3E3B;
+	}
+	.genius-button{
+		color:#B979AD;
+		background-color: #8CC3C3;
+	}
+
+/*MOBILE DESIGNS*/
+	@media (max-width: 767px) {
+
+	}

@@ -2,11 +2,7 @@ body {
 	background-color: #E5F2FF;
 }
 
-.underline {
-	text-decoration: underline;
-}
-
-.img-dimensions img{
+.image-border img{
   width: auto;
   height: 225px;
   max-height: 225px;
@@ -24,7 +20,6 @@ body {
 	font-weight: bold;
 	font-size: 30px;
 }
-
 .mainjumbotron
 {
 	background-image: url(http://www.unsigneddesign.com/cardboard1_edited.jpg);
@@ -33,6 +28,13 @@ body {
 	font-family: 'Arvo', serif;
 	color: white;
 }
+hr{
+	border-color: black;
+	border-width: 5px;
+}
+.hr-white{
+	border-color: white;
+}
 
 .pfp {
 	width: auto;
@@ -40,12 +42,12 @@ body {
 }
 
 .steps{
-	font-size: 60px;
+	font-size: 50px;
 }
 
 .emphasis{
 	font-weight: bold;
-	color: teal;
+	color: #2196F3;
 }
 
 .navbar-inverse{
